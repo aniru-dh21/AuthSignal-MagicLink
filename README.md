@@ -83,3 +83,5 @@ To create an action on your Authsignal dashboard, follow these steps:
 5. Save the action the apply the rule and make it active.
 
 ## How to Run the Application
+
+To run the backend application, run `python app.py` from your back-end folder in your terminal. This will start your back-end server on port 5000. Next, run the frontend application using the `npm start` command. This will start your frontend application on the port 3000.
