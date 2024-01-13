@@ -27,3 +27,7 @@ For this project implementation, you need to create an Authsignal account. To do
 4. Once you have configured the authenticator, navigate to the API Keys option. Here, you will find your Secret Key, which will be necessary for implementing the authentication.
 
 ## Application Flow
+
+Let's understand the flow of the application:
+
+### Initial Visit
