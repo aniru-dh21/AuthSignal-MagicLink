@@ -35,3 +35,15 @@ Let's understand the flow of the application:
 - The user visits the application's user interface. On the user interface, they see a login input box and a signup option. Since the user is new, they opt to sign up.
 
 ### Signup Flow
+
+- Upon clicking the signup link, the user is directed to a page to enter their chosen username.
+
+- After entering the username and clicking the signup button, the front and triggers a POST API call to /api/signup, sending the username in the request body.
+
+- The backend receives the request and communicates with the Authsignal server for user authentication.
+
+- Authsignal prompts the user to set up Magic Link authentication by entering their email address.
+
+- Authsignal sends a magic link to the provided email address.
+
+- After clicking the magic link, the user is authenticated and redirected the the home page, where they receive a welcome message displaying their email addresss. The page also included a logout button.
