@@ -47,3 +47,5 @@ Let's understand the flow of the application:
 - Authsignal sends a magic link to the provided email address.
 
 - After clicking the magic link, the user is authenticated and redirected the the home page, where they receive a welcome message displaying their email addresss. The page also included a logout button.
+
+### Login Flow
