@@ -13,3 +13,15 @@ One key difference between magic link authentication and authentication with ema
 While email verification adds an extra layer of security, it may require the user to remember additional credentials or go through multiple steps before accessing their account.
 
 ## How to Configure Authsignal
+
+[Authsignal](https://www.authsignal.com/) is a service that makes implementing modern authentication methods (like Magic Links and Passkeys) easier. It provides simple tools to integrate secure login methods into your web apps without hassle.
+
+For this project implementation, you need to create an Authsignal account. To do that, you can follow these steps:
+
+1. First, go to [authsignal.com](https://portal.authsignal.com/users/sign_up) and click on "Create Free Account".
+
+2. In the next step, create your first tenant. Choose any name for your tenant and select the data storage region.
+
+3. Next, you need to configue the authenticators you want to use for your application. For this project, I have enabled Email Magic Link and Authenticator App (TOTP).
+
+4. Once you have configured the authenticator, navigate to the API Keys option. Here, you will find your Secret Key, which will be necessary for implementing the authentication.
