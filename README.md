@@ -65,3 +65,5 @@ Let's understand the flow of the application:
 - After clicking the magic link, the user is authenticated and redirected to the home page, greeted with a welcome message displaying their email address.
 
 This flow ensures users can sign up using a chosen username, and set up Magic Link authetication via email for both signup and login.
+
+## Authsignal Actions
