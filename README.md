@@ -67,3 +67,17 @@ Let's understand the flow of the application:
 This flow ensures users can sign up using a chosen username, and set up Magic Link authetication via email for both signup and login.
 
 ## Authsignal Actions
+
+Authsignal allows you to create actions to track and manage user interactions in your application. Actions are events that can be triggered by users, such as signing up or logging in. By creating custom actions, you can have more control over the authentication process and implement specific authentication methods like Magic Link Authentication.
+
+To create an action on your Authsignal dashboard, follow these steps:
+
+1. Click on **"Actions"** in your Authsignal dashboard.
+
+2. Click on **"Click a new action"** to create a new action.
+
+3. Enter a name for the action that describes its purpose or the user interaction it represents.
+
+4. Next, you can configure the rule for the action. In our case, since we want to implement Magic Link Authentication, we will add a rule to challenge users with Email Magic Link. This will send a magic link to the user's email for authentication.
+
+5. Save the action the apply the rule and make it active.
