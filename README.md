@@ -31,3 +31,5 @@ For this project implementation, you need to create an Authsignal account. To do
 Let's understand the flow of the application:
 
 ### Initial Visit
+
+- The user visits the application's user interface. On the user interface, they see a login input box and a signup option. Since the user is new, they opt to sign up.
