@@ -25,3 +25,5 @@ For this project implementation, you need to create an Authsignal account. To do
 3. Next, you need to configue the authenticators you want to use for your application. For this project, I have enabled Email Magic Link and Authenticator App (TOTP).
 
 4. Once you have configured the authenticator, navigate to the API Keys option. Here, you will find your Secret Key, which will be necessary for implementing the authentication.
+
+## Application Flow
