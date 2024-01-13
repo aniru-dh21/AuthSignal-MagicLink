@@ -81,3 +81,5 @@ To create an action on your Authsignal dashboard, follow these steps:
 4. Next, you can configure the rule for the action. In our case, since we want to implement Magic Link Authentication, we will add a rule to challenge users with Email Magic Link. This will send a magic link to the user's email for authentication.
 
 5. Save the action the apply the rule and make it active.
+
+## How to Run the Application
