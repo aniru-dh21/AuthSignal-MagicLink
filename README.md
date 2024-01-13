@@ -49,3 +49,19 @@ Let's understand the flow of the application:
 - After clicking the magic link, the user is authenticated and redirected the the home page, where they receive a welcome message displaying their email addresss. The page also included a logout button.
 
 ### Login Flow
+
+- The user logs out and returns to the login page.
+
+- Here, the user enters their registered username and clicks the Login button.
+
+- Upon clicking Login, the front end triggers a POST API call to /api/login, passing the username in the request body.
+
+- The backend again communicates with Authsignal for user authentication, prompting the setup of Magic Link authentication.
+
+- The user is directed to a page to enter their email address.
+
+- Authsignal sends a magic link to the provided email address.
+
+- After clicking the magic link, the user is authenticated and redirected to the home page, greeted with a welcome message displaying their email address.
+
+This flow ensures users can sign up using a chosen username, and set up Magic Link authetication via email for both signup and login.
